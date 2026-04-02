@@ -16,7 +16,7 @@ Claw Dev is designed to feel like one tool rather than a provider-specific wrapp
 
 ## Repository Layout
 
-- `Leonxlnx-claude-code/`
+- `poncema4-claude-code/`
   - bundled terminal client and platform launchers
 - `src/anthropicCompatProxy.ts`
   - local Anthropic-compatible proxy used for OpenAI, Gemini, Groq, OpenRouter, Copilot, and z.ai
@@ -189,14 +189,14 @@ npm start
 Or launch it directly from the bundled client directory on Windows:
 
 ```powershell
-cd E:\myclaudecode\Leonxlnx-claude-code
+cd E:\myclaudecode\poncema4-claude-code
 .\claw-dev.cmd
 ```
 
 Or launch it directly from the bundled client directory on macOS or Linux:
 
 ```bash
-cd /path/to/myclaudecode/Leonxlnx-claude-code
+cd /path/to/myclaudecode/poncema4-claude-code
 chmod +x ./claw-dev.sh
 ./claw-dev.sh
 ```
@@ -239,7 +239,7 @@ Recommended `.env` values:
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
-OPENROUTER_SITE_URL=https://github.com/Leonxlnx/claw-dev
+OPENROUTER_SITE_URL=https://github.com/poncema4/claw-dev
 OPENROUTER_APP_NAME=Claw Dev
 OPENROUTER_MODEL=anthropic/claude-sonnet-4
 OPENROUTER_MODEL_HAIKU=openrouter/free
@@ -579,7 +579,7 @@ GROQ_MODEL=openai/gpt-oss-20b
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
-OPENROUTER_SITE_URL=https://github.com/Leonxlnx/claw-dev
+OPENROUTER_SITE_URL=https://github.com/poncema4/claw-dev
 OPENROUTER_APP_NAME=Claw Dev
 OPENROUTER_MODEL=anthropic/claude-sonnet-4
 ```
@@ -628,14 +628,14 @@ ZAI_MODEL=glm-5
 Check the installed launcher version:
 
 ```powershell
-cd E:\myclaudecode\Leonxlnx-claude-code
+cd E:\myclaudecode\poncema4-claude-code
 .\claw-dev.cmd --version
 ```
 
 Check the installed launcher version on macOS or Linux:
 
 ```bash
-cd /path/to/myclaudecode/Leonxlnx-claude-code
+cd /path/to/myclaudecode/poncema4-claude-code
 chmod +x ./claw-dev.sh
 ./claw-dev.sh --version
 ```
@@ -714,8 +714,8 @@ Before creating public commits, verify that your local Git identity is safe to p
 Recommended settings for this repository:
 
 ```powershell
-git config user.name "Leonxlnx"
-git config user.email "219127460+Leonxlnx@users.noreply.github.com"
+git config user.name "poncema4"
+git config user.email "219127460+poncema4@users.noreply.github.com"
 ```
 
 You can verify the active values with:

@@ -416,7 +416,7 @@ async function configureCompatProvider(provider, env, rl, modelArg) {
         env.OPENROUTER_API_KEY = key;
       }
       env.OPENROUTER_BASE_URL = env.OPENROUTER_BASE_URL?.trim() || "https://openrouter.ai/api/v1";
-      env.OPENROUTER_SITE_URL = env.OPENROUTER_SITE_URL?.trim() || "https://github.com/Leonxlnx/claw-dev";
+      env.OPENROUTER_SITE_URL = env.OPENROUTER_SITE_URL?.trim() || "https://github.com/poncema4/claw-dev";
       env.OPENROUTER_APP_NAME = env.OPENROUTER_APP_NAME?.trim() || "Claw Dev";
       env.OPENROUTER_MODEL = await resolveModelSelection({
         rl,
