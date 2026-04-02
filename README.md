@@ -16,7 +16,7 @@ Claw Dev is designed to feel like one tool rather than a provider-specific wrapp
 
 ## Repository Layout
 
-- `poncema4-claude-code/`
+- `poncema4/`
   - bundled terminal client and platform launchers
 - `src/anthropicCompatProxy.ts`
   - local Anthropic-compatible proxy used for OpenAI, Gemini, Groq, OpenRouter, Copilot, and z.ai
@@ -189,14 +189,14 @@ npm start
 Or launch it directly from the bundled client directory on Windows:
 
 ```powershell
-cd E:\myclaudecode\poncema4-claude-code
+cd E:\myclaudecode\poncema4
 .\claw-dev.cmd
 ```
 
 Or launch it directly from the bundled client directory on macOS or Linux:
 
 ```bash
-cd /path/to/myclaudecode/poncema4-claude-code
+cd /path/to/myclaudecode/poncema4
 chmod +x ./claw-dev.sh
 ./claw-dev.sh
 ```
@@ -628,14 +628,14 @@ ZAI_MODEL=glm-5
 Check the installed launcher version:
 
 ```powershell
-cd E:\myclaudecode\poncema4-claude-code
+cd E:\myclaudecode\poncema4
 .\claw-dev.cmd --version
 ```
 
 Check the installed launcher version on macOS or Linux:
 
 ```bash
-cd /path/to/myclaudecode/poncema4-claude-code
+cd /path/to/myclaudecode/poncema4
 chmod +x ./claw-dev.sh
 ./claw-dev.sh --version
 ```
